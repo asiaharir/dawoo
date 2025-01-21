@@ -1,0 +1,47 @@
+/* UserManager.css */
+.user-manager {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.user-manager h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-user-btn {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-user-btn:hover {
+  background-color: #45a049;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.delete-user-btn {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-user-btn:hover {
+  background-color: #d32f2f;
+}
